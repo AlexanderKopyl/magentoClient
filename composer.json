@@ -1,0 +1,21 @@
+{
+    "name": "alex/magento-client",
+    "description": "api client work with magento2",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Alex\\MagentoClient\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleksandr Kopyl",
+            "email": "alexsander11115@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "guzzlehttp/oauth-subscriber": "^0.6.0"
+    }
+}
